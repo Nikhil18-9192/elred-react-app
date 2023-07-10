@@ -1,0 +1,52 @@
+.info_container{
+    width: 100%;
+    .about{
+        padding: 14px 0;
+        border-bottom: 2px solid #eee;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            
+            svg{
+                cursor: pointer;
+            }
+        }
+        .text{
+            .about_me{
+                line-height: 1.5;
+                font-size: 14px;
+                color: #868686;
+            }
+        }
+    }
+    .blood_group{
+        padding: 14px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .group_text{
+            font-size: 16px;
+            font-weight: 500;
+            color: #6b6a6a;
+        }
+        
+    }
+    .resume{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 14px;
+        -webkit-box-shadow: 0px 0px 22px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -12px rgba(0,0,0,0.75);
+        padding: 12px;
+        cursor: pointer;
+        svg{
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+}

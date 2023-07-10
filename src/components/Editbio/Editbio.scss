@@ -1,0 +1,63 @@
+.edit_container{
+    width: 100%;
+    .label{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    .about{
+        width: 100%;
+        .about_text{
+            // width: 80%;
+            border: none;
+            outline: none;
+            background: #dbdbeb;
+            padding: 12px;
+        }
+    }
+    .resume{
+        border: 1px solid #eee;
+        height: 65px;
+        display: flex;
+        margin-top: 24px;
+        justify-content: center;
+        align-items: center;
+        background: #dbdbeb;
+
+        cursor: pointer;
+        .file_input{
+            display: none;
+        }
+        .text{
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+
+    }
+    .bloodgroup{
+        margin-top: 24px;
+        .select_box{
+            width: 100%;
+            height: 40px;
+        }
+    }
+    .save_btn{
+        width: 80%;
+        margin: 0 auto;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        background: rgb(230, 104, 104);
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
