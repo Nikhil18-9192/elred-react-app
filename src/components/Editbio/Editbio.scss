@@ -1,5 +1,6 @@
 .edit_container{
-    width: 100%;
+    // width: 100%;
+    padding: 14px;
     .label{
         font-size: 16px;
         font-weight: 500;
@@ -9,11 +10,16 @@
     .about{
         width: 100%;
         .about_text{
-            // width: 80%;
+            width: 92%;
             border: none;
             outline: none;
             background: #dbdbeb;
             padding: 12px;
+        }
+        .small_text{
+            text-align: right;
+            color: #a0a0a0;
+            font-size: 12px;
         }
     }
     .resume{
@@ -33,9 +39,24 @@
             font-size: 16px;
             font-weight: 500;
         }
-
-
     }
+    .uploaded_view{
+        margin-top: 24px;
+        .resume_name{
+            margin-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+
+            svg{
+                color: red;
+                font-size: 24px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
+    
     .bloodgroup{
         margin-top: 24px;
         .select_box{

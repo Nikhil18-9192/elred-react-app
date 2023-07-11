@@ -1,0 +1,22 @@
+.rating_container{
+    position: relative;
+    background: gray;
+    margin-top: 24px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    
+    .rating_item{
+        display: flex;
+        margin: 12px 0;
+        align-items: center;
+        .rating_count{
+            margin-right: 12px;
+            cursor: pointer;
+        }
+        .text{
+            line-height: 1.5;
+            cursor: pointer;
+        }
+    }
+}

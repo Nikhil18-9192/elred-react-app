@@ -1,0 +1,30 @@
+.view_resume{
+    // width: 100%;
+    padding: 24px;
+    overflow-x: hidden;
+    .title_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+        .title{
+            display: flex;
+            align-items: center;
+            svg{
+                margin-right: 12px;
+            }
+        }
+        .close{
+            padding: 6px;
+            cursor: pointer;
+            background: #eee;
+            border-radius: 50%;
+        }
+    }
+    
+    .pdf_viewer{
+        width: 100%;
+        height: 700px;
+
+    }
+}

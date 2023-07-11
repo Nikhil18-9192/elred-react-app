@@ -1,0 +1,111 @@
+.edit_skills{
+    position: relative;
+    padding: 14px;
+
+    .label{
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+    .wrapper{
+        position: relative;
+        .skills_list{
+            max-height: 300px;
+            overflow: scroll;
+            overflow-x: hidden;
+            padding: 8px;
+            display: flex;
+            // flex-wrap: wrap;
+            &::-webkit-scrollbar {
+                width: 4px;
+              }
+              
+              /* Track */
+              &::-webkit-scrollbar-track {
+                background: #f1f1f1; 
+              }
+               
+              /* Handle */
+              &::-webkit-scrollbar-thumb {
+                background: #888; 
+              }
+              
+              /* Handle on hover */
+              &::-webkit-scrollbar-thumb:hover {
+                background: #616161; 
+              }
+            .skill{
+                margin-right: 12px;
+                padding: 4px 10px;
+                background: blue;
+                color: #fff;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+        }
+        .skills{
+            display: flex;
+            padding: 8px;
+            border: 1px solid #a2a2a2;
+            border-radius: 4px;
+            min-height: 8px;
+            overflow-x: auto;
+            margin-top: 16px;
+            position: relative;
+                    /* width */
+    &::-webkit-scrollbar {
+        height: 4px;
+      }
+      
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #616161; 
+      }
+      
+            .skill{
+                display: flex;
+                background: blue;
+                margin-right: 12px;
+                padding: 4px 6px;
+                border-radius: 14px;
+                span{
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-right: 6px;
+                }
+                svg{
+                    padding: 2px;
+                    border-radius: 50%;
+                    background: #eee;
+                }
+            }
+        }
+    }
+    .save_btn{
+        width: 340px;
+        height: 40px;
+        margin: 28px auto;
+        background: red;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+   
+}

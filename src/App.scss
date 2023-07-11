@@ -12,6 +12,22 @@
     height: 812px;
     background: #fff;
     overflow: auto;
+    overflow-x: hidden;
+  }
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  svg{
+      font-size: 18px;
+      font-weight: 700;
+      margin-right: 18px;
+  }
+  .text{
+      font-size: 18px;
+      font-weight: 700;
   }
 }
 
